@@ -1,15 +1,15 @@
 <?php
-// $db['db_host'] = 'localhost';
-// $db['db_user'] = 'root';
-// $db['db_pass'] = '';
-// $db['db_name'] = 'amd';
+$db['db_host'] = 'localhost';
+$db['db_user'] = 'u927419660_kashanbhatti44';
+$db['db_pass'] = '0qEkxGoS7@';
+$db['db_name'] = 'u927419660_kashanbhatti44';
 
 
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "amd(6)";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "amd(6)";
 
 // foreach ($db as $key => $value) {
 //    define (strtoupper($key),$value);
