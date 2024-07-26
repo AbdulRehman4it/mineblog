@@ -19,7 +19,7 @@
             <ul class="text-[26px] text-[#A4A4A4] nimbusl-regular flex items-center justify-between">
              <!-- fetch category data using query -->
              <?php  
-                      $query =" SELECT * FROM Categories";
+                      $query =" SELECT * FROM categories";
                       $run = mysqli_query($conn, $query);
                       if(mysqli_num_rows($run)  >  0){
                         while ($row = mysqli_fetch_array($run)) {
@@ -57,7 +57,7 @@
     <div id="menue" class="hidden flex justify-center py-5 lg:hidden absolute bg-black w-full" >
         <ul class="text-[26px] text-[#A4A4A4] nimbusl-regular flex flex-col gap-5 text-center justify-center items-center justify-between">
         <?php  
-                      $query =" SELECT * FROM Categories";
+                      $query =" SELECT * FROM categories";
                       $run = mysqli_query($conn, $query);
                       if(mysqli_num_rows($run)  >  0){
                         while ($row = mysqli_fetch_array($run)) {
