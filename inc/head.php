@@ -15,6 +15,6 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Best Online Products</title>
-    <meta name="monetag" content="a900d6f1cf058f23f8114aa36ca23543">
+    <!-- <meta name="monetag" content="a900d6f1cf058f23f8114aa36ca23543"> -->
     <script src="https://alwingulla.com/88/tag.min.js" data-zone="83730" async data-cfasync="false"></script>
   </head>
