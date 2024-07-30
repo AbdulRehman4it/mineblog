@@ -1,8 +1,8 @@
 <?php
 $db['db_host'] = 'localhost';
-$db['db_user'] = 'u927419660_kashanbhatti44';
+$db['db_user'] = 'u927419660_blog';
 $db['db_pass'] = '0qEkxGoS7@';
-$db['db_name'] = 'u927419660_kashanbhatti44';
+$db['db_name'] = 'u927419660_blog';
 
 
 
