@@ -9,7 +9,7 @@ $dbname = "u927419660_blog";
 // $servername = "localhost";
 // $username = "root";
 // $password = "";
-// $dbname = "amd";
+// $dbname = "localblog";
 
 // foreach ($db as $key => $value) {
 //    define (strtoupper($key),$value);

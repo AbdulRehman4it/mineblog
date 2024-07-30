@@ -43,7 +43,8 @@ if (isset($_GET['id'])) {
 
 
     <section class="py-[5%] px-[15%]">
-      <img src="./assets/img/google-add.png" class="w-full" alt="" />
+    <script async="async" data-cfasync="false" src="//pl23899056.highratecpm.com/2bccf0a629211c719bfdbb92935210c6/invoke.js"></script>
+    <div id="container-2bccf0a629211c719bfdbb92935210c6"></div>
     </section>
     <section>
       <div class="flex flex-col lg:flex-row items-start gap-10 p-2 lg:p-0">
@@ -51,51 +52,30 @@ if (isset($_GET['id'])) {
           
             <div class="swiper mySwiper0 pb-10">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-[url('./assets/img/blog-hero.png')] h-screen bg-cover bg-no-repeat flex items-end justify-center"
-                    >
-                      <div class="pb-8">
-                        <p class="text-lg nimbusl-regular text-[#ffffff]">
-                          Source : Fashion Collection
-                        </p>
-                      </div>
-                    </div>
-                  
-                  </div>
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-[url('./assets/img/blog-hero.png')] h-screen bg-cover bg-no-repeat flex items-end justify-center"
-                    >
-                      <div class="pb-8">
-                        <p class="text-2xl nimbusl-regular text-[#ffffff]">
-                          Source : Fashion Collection
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-[url('./assets/img/blog-hero.png')] h-screen bg-cover bg-no-repeat flex items-end justify-center"
-                    >
-                      <div class="pb-8">
-                        <p class="text-2xl nimbusl-regular text-[#ffffff]">
-                          Source : Fashion Collection
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-[url('./assets/img/blog-hero.png')] h-screen bg-cover bg-no-repeat flex items-end justify-center"
-                    >
-                      <div class="pb-8">
-                        <p class="text-2xl nimbusl-regular text-[#ffffff]">
-                          Source : Fashion Collection
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                <?php
+                        // Loop through image columns
+                        for ($i = 0; $i <= 5; $i++) {
+                            $image_column = ($i == 0) ? 'image' : 'image' . $i;
+                            // Check if the image column exists and is not empty
+                            if (!empty($row[$image_column])) {
+                                ?>
+                     <div class="swiper-slide">
+            <div
+              class="bg-[url('./assets/img/<?php echo $row[$image_column]; ?>')] h-[70vh] bg-cover bg-no-repeat flex items-end justify-center"
+            >
+              <div class="pb-8">
+                <p class="text-lg nimbusl-regular text-[#ffffff]">
+                  Source : <?php echo $category; ?> Collection
+                </p>
+              </div>
+            </div>
+           
+          </div>
+          <?php
+                            }
+                        }
+                        ?>
+                 
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -117,6 +97,17 @@ if (isset($_GET['id'])) {
           <p class="text-base lg:text-xl nimbusl-regular text-[#A4A4A4] leading-[25px] lg:leading-[37px]">
           <?php echo $row['blog_data']; ?>
           </p>
+          <script type="text/javascript">
+	atOptions = {
+		'key' : 'c9bca91451eb765a556cc6c5c7af4f0d',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/c9bca91451eb765a556cc6c5c7af4f0d/invoke.js"></script>
+    <div id="container-c9bca91451eb765a556cc6c5c7af4f0d"></div>
         </div>
       </div>
       <div class="flex flex-col-reverse lg:flex-row items-sart gap-10 pt-20 px-3 lg:px-0">
@@ -126,57 +117,46 @@ if (isset($_GET['id'])) {
             <p class="text-base lg:text-xl nimbusl-regular text-[#A4A4A4] leading-[25px] lg:leading-[37px]">
             <?php echo $row['blog_data2']; ?>
             </p>
-           <img src="./assets/img/google-add1.png" class="w-full h-[430px]" alt="">
+           
+            <script type="text/javascript">
+	atOptions = {
+		'key' : 'c9bca91451eb765a556cc6c5c7af4f0d',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/c9bca91451eb765a556cc6c5c7af4f0d/invoke.js"></script>
+    <div id="container-c9bca91451eb765a556cc6c5c7af4f0d"></div>
           </div>
           <div class="w-full lg:basis-1/2 overflow-hidden relative">
             
               <div class="swiper mySwiper0 pb-10">
                   <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div
-                        class="bg-[url('./assets/img/blog-hero.png')] h-screen bg-cover bg-no-repeat flex items-end justify-center"
-                      >
-                        <div class="pb-8">
-                          <p class="text-lg nimbusl-regular text-[#ffffff]">
-                            Source : Fashion Collection
-                          </p>
-                        </div>
-                      </div>
-                    
-                    </div>
-                    <div class="swiper-slide">
-                      <div
-                        class="bg-[url('./assets/img/blog-hero.png')] h-screen bg-cover bg-no-repeat flex items-end justify-center"
-                      >
-                        <div class="pb-8">
-                          <p class="text-2xl nimbusl-regular text-[#ffffff]">
-                            Source : Fashion Collection
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div
-                        class="bg-[url('./assets/img/blog-hero.png')] h-screen bg-cover bg-no-repeat flex items-end justify-center"
-                      >
-                        <div class="pb-8">
-                          <p class="text-2xl nimbusl-regular text-[#ffffff]">
-                            Source : Fashion Collection
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div
-                        class="bg-[url('./assets/img/blog-hero.png')] h-screen bg-cover bg-no-repeat flex items-end justify-center"
-                      >
-                        <div class="pb-8">
-                          <p class="text-2xl nimbusl-regular text-[#ffffff]">
-                            Source : Fashion Collection
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+                  <?php
+                        // Loop through image columns
+                        for ($i = 0; $i <= 5; $i++) {
+                            $image_column = ($i == 0) ? 'image' : 'image' . $i;
+                            // Check if the image column exists and is not empty
+                            if (!empty($row[$image_column])) {
+                                ?>
+                     <div class="swiper-slide">
+            <div
+              class="bg-[url('./assets/img/<?php echo $row[$image_column]; ?>')] h-[70vh] bg-cover bg-no-repeat flex items-end justify-center"
+            >
+              <div class="pb-8">
+                <p class="text-lg nimbusl-regular text-[#ffffff]">
+                  Source : <?php echo $category; ?> Collection
+                </p>
+              </div>
+            </div>
+           
+          </div>
+          <?php
+                            }
+                        }
+                        ?>
                   </div>
                   <div class="swiper-pagination"></div>
                 </div>
@@ -184,56 +164,9 @@ if (isset($_GET['id'])) {
        
       </div>
     </section>
-    <section>
-      <div class="px-[5%] flex flex-wrap gap-3 lg:gap-7 py-8 border-b">
-        <a href=""
-          ><button class="text-lg border px-6 py-1 text-[#A4A4A4]">
-            Fashion
-          </button></a
-        >
-        <a href=""
-          ><button class="text-lg border px-6 py-1 text-[#A4A4A4]">
-            Elegance
-          </button></a
-        >
-        <a href=""
-          ><button class="text-lg border px-6 py-1 text-[#A4A4A4]">
-            Lifestyle
-          </button></a
-        >
-        <a href=""
-          ><button class="text-lg border px-6 py-1 text-[#A4A4A4]">
-            Style
-          </button></a
-        >
-        <a href=""
-          ><button class="text-lg border px-6 py-1 text-[#A4A4A4]">
-            Fitness
-          </button></a
-        >
-        <a href=""
-          ><button class="text-lg border px-6 py-1 text-[#A4A4A4]">
-            Relationships
-          </button></a
-        >
-        <a href=""
-          ><button class="text-lg border px-6 py-1 text-[#A4A4A4]">
-            Career
-          </button></a
-        >
-      </div>
-      <div class="flex justify-center py-10">
-        <a href=""
-          ><button
-            class="bg-black text-xl text-white flex gap-2 pl-8 pr-20 py-3"
-          >
-          <img src="./assets/img/copy-link.png" alt="">
-            
-            
-            Copy link
-          </button></a
-        >
-      </div>
+    <section class="py-[5%] px-[15%]">
+    <script async="async" data-cfasync="false" src="//pl23899056.highratecpm.com/2bccf0a629211c719bfdbb92935210c6/invoke.js"></script>
+    <div id="container-2bccf0a629211c719bfdbb92935210c6"></div>
     </section>
 
 
@@ -253,8 +186,18 @@ if (isset($_GET['id'])) {
 
 
 
-    <section class="p-[5%]">
-      <img src="./assets/img/google-add.png" class="w-full" alt="" />
+    <section class="p-[5%] flex justify-center items-center">
+    <script type="text/javascript">
+	atOptions = {
+		'key' : 'c956ae476598e44ada58bb1fa41f389b',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/c956ae476598e44ada58bb1fa41f389b/invoke.js"></script>
+<div id="container-c956ae476598e44ada58bb1fa41f389b"></div>
     </section>
   <!--slider  -->
   <?php
@@ -353,8 +296,18 @@ if (isset($_GET['id'])) {
         </div>
       </div>
     </section>
-    <section class="py-[5%] px-[15%]">
-      <img src="./assets/img/google-add.png" class="w-full" alt="" />
+    <section class="py-[5%] px-[15%] flex justify-center items-center">
+    <script type="text/javascript">
+	atOptions = {
+		'key' : 'c956ae476598e44ada58bb1fa41f389b',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/c956ae476598e44ada58bb1fa41f389b/invoke.js"></script>
+    <div id="container-c956ae476598e44ada58bb1fa41f389b"></div>
     </section>
 
 <?php

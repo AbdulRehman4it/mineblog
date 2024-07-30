@@ -2,14 +2,14 @@
       <div
         class="flex flex-col lg:flex-row justify-between items-center border-b border-[#A4A4A4] pb-10"
       >
-        <img src="./assets/img/logo.png" alt="logo" />
+        <img src="./assets/img/logo.png" class="w-[140px] lg:w-[140px]" alt="" />
         <div class="items-center gap-5 hidden lg:flex">
          <a href=""><img src="./assets/img/youtube.png" alt="" /></a> 
          <a href=""> <img src="./assets/img/instagram.png" alt="" /></a>
         </div>
       </div>
       <div
-        class="flex flex-col md:flex-row justify-between items-center text-white text-lg nimbusl-regular py-5"
+        class="flex flex-col md:flex-row justify-between items-center text-black text-lg nimbusl-regular py-5"
       >
         <ul class="flex items-center gap-2 lg:gap-4 md:gap-7">
           <li><a href="">About</a></li>
@@ -21,7 +21,7 @@
          <a href=""> <img src="./assets/img/instagram.png" alt="" /></a>
         </div>
         </ul>
-        <p>© 2021 Copyright AMDmode site</p>
+        <p>© 2024 Copyright RISS Group</p>
       </div>
     </footer>
 

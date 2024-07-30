@@ -10,7 +10,8 @@
 
 
     <section class="p-[5%]">
-      <img src="./assets/img/google-add.png" class="w-full" alt="" />
+    <script async="async" data-cfasync="false" src="//pl23899056.highratecpm.com/2bccf0a629211c719bfdbb92935210c6/invoke.js"></script>
+    <div id="container-2bccf0a629211c719bfdbb92935210c6"></div>
     </section>
 
   
@@ -127,7 +128,8 @@ if (isset($_GET['cat_id'])) {
 }
 ?>
     <section class="py-[5%] px-[15%]">
-      <img src="./assets/img/google-add.png" class="w-full" alt="" />
+    <script async="async" data-cfasync="false" src="//pl23899056.highratecpm.com/2bccf0a629211c719bfdbb92935210c6/invoke.js"></script>
+    <div id="container-2bccf0a629211c719bfdbb92935210c6"></div>
     </section>
     <section class="md:h-[70vh] relative overflow-y-hidden">
       <div>
@@ -156,8 +158,18 @@ if (isset($_GET['cat_id'])) {
       </div>
     </section>
    
-    <section class="py-[5%] px-[15%]">
-      <img src="./assets/img/google-add.png" class="w-full" alt="" />
+    <section class="py-[5%] px-[15%] flex justify-center items-center">
+    <script type="text/javascript">
+	atOptions = {
+		'key' : 'd252e076ca975686e9e6a1c55d7804d4',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/d252e076ca975686e9e6a1c55d7804d4/invoke.js"></script>
+    <div id="container-d252e076ca975686e9e6a1c55d7804d4"></div>
     </section>
 
 
