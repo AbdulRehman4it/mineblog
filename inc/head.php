@@ -15,4 +15,5 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Best Online Products</title>
+    <meta name="monetag" content="a900d6f1cf058f23f8114aa36ca23543">
   </head>
