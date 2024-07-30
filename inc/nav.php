@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="bg-black py-4">
+<nav class="bg-white py-4">
     <div class="flex justify-between lg:justify-center items-center">
        <a href="./index.php"><img src="./assets/img/logo.png" class="w-[140px] lg:w-[390px]" alt=""></a> 
         <div class="block lg:hidden">
