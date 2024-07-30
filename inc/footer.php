@@ -1,4 +1,4 @@
-<footer class="bg-black px-[5%] pt-[5%]">
+<footer class="bg-white px-[5%] pt-[5%]">
       <div
         class="flex flex-col lg:flex-row justify-between items-center border-b border-[#A4A4A4] pb-10"
       >
