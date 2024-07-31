@@ -76,7 +76,7 @@
     } else {
         echo "<h2 class='text-back'>No Blogs Available</h2>";
     }
-    
+    ?>
 
     <section class="p-[5%] pt-16 lg:pt-[10%]">
     <script async="async" data-cfasync="false" src="//pl23899056.highratecpm.com/2bccf0a629211c719bfdbb92935210c6/invoke.js"></script>
