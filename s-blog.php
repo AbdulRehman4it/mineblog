@@ -184,7 +184,13 @@ if (isset($_GET['id'])) {
     echo "No blog ID specified.";
 }
 ?>
-
+<section class="p-[5%] flex justify-center items-center">
+<a href="https://grairdou.com/4/7806248"
+                  class="px-16 py-3 text-lg text-white nimbusl-regular bg-black mt-8"
+                >
+                  <span>Read More<span>
+                </a>
+</section>
 
 
     <section class="p-[5%] flex justify-center items-center">
