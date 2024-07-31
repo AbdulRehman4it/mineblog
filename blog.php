@@ -100,7 +100,7 @@ if (isset($_GET['cat_id'])) {
               </p>
               <a href="./s-blog.php?id=<?php echo $row['id'];?>">
               <div class="mt-10">
-                <span
+                <span id="blog"
                   class="px-16 py-3 text-lg text-white nimbusl-regular bg-black mt-8"
                 >
                   Read More<span>
