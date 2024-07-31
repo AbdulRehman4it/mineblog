@@ -98,14 +98,14 @@ if (isset($_GET['cat_id'])) {
               <p class="text-base leading-[24px] text-[#A4A4A4] nimbusl-regular line-clamp-2">
               <?php echo $row['blog_data']; ?>
               </p>
-              
+              <div class="mt-10">
                 <a href="./s-blog.php?id=<?php echo $row['id'];?>"
                   class="px-16 py-3 text-lg text-white nimbusl-regular bg-black mt-8"
                 >
-                  Read More
+                  <span>Read More<span>
                 </a>
               
-              
+              </div>
               
             </div>
     </section>
