@@ -78,54 +78,6 @@
     }
     
 
-// Fetch the video
-    $query = "SELECT * FROM video_blogs LIMIT 1";
-    $run = mysqli_query($conn, $query);
-
-    if ($run && mysqli_num_rows($run) > 0) {
-        $row = mysqli_fetch_array($run);
-        // Display the video
-        ?>
-    <section class="lg:h-[70vh] relative overflow-y-hidden top-8 lg:top-20">
-      <div>
-        <video width="100%" height="100%"  autoplay loop>
-          <source
-            src="./assets/img/<?php echo $row['video']; ?>"
-            type="video/mp4"
-          />
-          <!-- <source src="movie.ogg" type="video/ogg"> -->
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="pl-[5%] lg:pb-8 absolute bottom-4 lg:bottom-10">
-      <?php 
-                    $timestamp = strtotime($row['date']); 
-                    $date = getdate($timestamp); 
-                    // $day = $date['mday'];
-                    $month = $date['month'];
-                    $year = $date['year'];
-                ?>
-        <div
-          class="text-base nimbusl-bold text-[#AEAEAE] flex items-center gap-10"
-        >
-          <p> <?php echo $month;?>, <?php echo $year;?></p>
-          <ul class="list-disc">
-            <li><?php echo ucfirst($row['categories']);?></li>
-          </ul>
-        </div>
-        <h1 class="text-white text-3xl lg:text-4xl nimbusl-bold">
-        <?php echo $row['first_title'];?><span class="ogg"><?php echo $row['second_title'];?></span>
-        </h1>
-      </div>
-    </section>
-
-    <?php
-    } else {
-        echo "<h2 class='text-back'>No Video Available</h2>";
-    }
-
-    ?>
-
     <section class="p-[5%] pt-16 lg:pt-[10%]">
     <script async="async" data-cfasync="false" src="//pl23899056.highratecpm.com/2bccf0a629211c719bfdbb92935210c6/invoke.js"></script>
     <div id="container-2bccf0a629211c719bfdbb92935210c6"></div>

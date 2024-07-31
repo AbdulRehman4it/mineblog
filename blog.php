@@ -130,32 +130,7 @@ if (isset($_GET['cat_id'])) {
     <script async="async" data-cfasync="false" src="//pl23899056.highratecpm.com/2bccf0a629211c719bfdbb92935210c6/invoke.js"></script>
     <div id="container-2bccf0a629211c719bfdbb92935210c6"></div>
     </section>
-    <section class="md:h-[70vh] relative overflow-y-hidden">
-      <div>
-        <video width="100%" height="1080" loop controls>
-          <source
-            src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/wsal2koyazxtu7gnbju7"
-            type="video/mp4"
-          />
-          <!-- <source src="movie.ogg" type="video/ogg"> -->
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="pl-[5%] lg:pb-8 absolute bottom-3 lg:bottom-10">
-        <div
-          class="text-base nimbusl-bold text-[#AEAEAE] flex items-center gap-10"
-        >
-          <p>Sep, 2022</p>
-          <ul class="list-disc">
-            <li>Fashion</li>
-          </ul>
-        </div>
-        <h1 class="text-white text-3xl lg:text-4xl nimbusl-bold">
-          Making of Vogue arabia june 2023
-          <span class="ogg"><i>saudi issue</i> </span>
-        </h1>
-      </div>
-    </section>
+   
    
     <section class="py-[5%] px-[15%] flex justify-center items-center">
     <script type="text/javascript">
