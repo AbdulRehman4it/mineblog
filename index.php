@@ -8,8 +8,8 @@
   <?php
      require_once('./inc/nav.php');
      ?>
-   <section class="flex justify-center items-center" >
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
+     <div class="flex justify-center items-center">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
      crossorigin="anonymous"></script>
 <!-- bloging rectangle -->
 <ins class="adsbygoogle"
@@ -21,7 +21,8 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</section>
+</div>
+
 <?php
     if (isset($_GET['cat'])) {
         $cat_id = $_GET['cat'];
@@ -232,7 +233,7 @@
     <div id="container-d252e076ca975686e9e6a1c55d7804d4"></div>
     </section>
 
-    <section class="flex justify-center items-center" >
+    <div class="flex justify-center items-center">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
      crossorigin="anonymous"></script>
 <!-- bloging rectangle -->
@@ -245,7 +246,7 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</section>
+</div>
     <?php
      require_once('./inc/footer.php');
      ?>
