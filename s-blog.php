@@ -98,6 +98,7 @@ if (isset($_GET['id'])) {
           <p class="text-base lg:text-xl nimbusl-regular text-[#A4A4A4] leading-[25px] lg:leading-[37px]">
           <?php echo $row['blog_data']; ?>
           </p>
+          <div>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -109,6 +110,7 @@ if (isset($_GET['id'])) {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
           <script type="text/javascript">
 	atOptions = {
 		'key' : 'c9bca91451eb765a556cc6c5c7af4f0d',
@@ -129,6 +131,7 @@ if (isset($_GET['id'])) {
             <p class="text-base lg:text-xl nimbusl-regular text-[#A4A4A4] leading-[25px] lg:leading-[37px]">
             <?php echo $row['blog_data2']; ?>
             </p>
+            <div>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -140,6 +143,7 @@ if (isset($_GET['id'])) {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
             <script type="text/javascript">
 	atOptions = {
 		'key' : 'c9bca91451eb765a556cc6c5c7af4f0d',
