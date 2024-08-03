@@ -17,7 +17,7 @@
     <title>Best Online Products</title>
     <!-- <meta name="monetag" content="a900d6f1cf058f23f8114aa36ca23543"> -->
     <!-- <script src="https://alwingulla.com/88/tag.min.js" data-zone="83730" async data-cfasync="false"></script> -->
-    <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7806188"></script>
+    <!-- <script async="async" data-cfasync="false" src="//thubanoa.com/1?z=7806188"></script> -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
      crossorigin="anonymous"></script>
   </head>
