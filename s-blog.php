@@ -99,17 +99,7 @@ if (isset($_GET['id'])) {
           <?php echo $row['blog_data']; ?>
           </p>
           <div>
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1761214904388955"
-     data-ad-slot="2550582348"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+          
 </div>
           <script type="text/javascript">
 	atOptions = {
@@ -131,18 +121,7 @@ if (isset($_GET['id'])) {
             <p class="text-base lg:text-xl nimbusl-regular text-[#A4A4A4] leading-[25px] lg:leading-[37px]">
             <?php echo $row['blog_data2']; ?>
             </p>
-            <div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1761214904388955"
-     data-ad-slot="9666822909"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+           
 </div>
             <script type="text/javascript">
 	atOptions = {

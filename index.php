@@ -8,21 +8,7 @@
   <?php
      require_once('./inc/nav.php');
      ?>
-  <div>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
-     crossorigin="anonymous"></script>
-<!-- bloging rectangle -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1761214904388955"
-     data-ad-slot="5751460752"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
-</div>
 <?php
     if (isset($_GET['cat'])) {
         $cat_id = $_GET['cat'];
@@ -232,21 +218,7 @@
 <script type="text/javascript" src="//www.topcreativeformat.com/d252e076ca975686e9e6a1c55d7804d4/invoke.js"></script>
     <div id="container-d252e076ca975686e9e6a1c55d7804d4"></div>
     </section>
-<div>
-    
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1761214904388955"
-     crossorigin="anonymous"></script>
-<!-- rectangle 2 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1761214904388955"
-     data-ad-slot="2087715781"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+
     <?php
      require_once('./inc/footer.php');
      ?>
