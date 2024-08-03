@@ -44,6 +44,7 @@ if (isset($_GET['cat_id'])) {
             $date = date('M d, Y', strtotime($row['date']));
             $title = $row['first_title'] . ' ' . $row['second_title'] . ' ' . $row['third_title'];
             $category = $row['categories'];
+            
             // $blog_data = isset($row['blog_data']) ? $row['blog_data'] : ''; // Check if blog_data is not null
 
             ?>
@@ -100,7 +101,7 @@ if (isset($_GET['cat_id'])) {
               </p>
               <a href="./s-blog.php?id=<?php echo $row['id'];?>">
               <div class="mt-10">
-                <span id="blog"
+                <span id="blog<?php echo $row['id'];?>"
                   class="px-16 py-3 text-lg text-white nimbusl-regular bg-black mt-8"
                 >
                   Read More<span>
