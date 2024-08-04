@@ -150,6 +150,6 @@ var swiper = new Swiper(".mySwiper0", {
       
     </script>
 
-
+<script type='text/javascript' src='//pl23885468.highratecpm.com/fb/3d/61/fb3d6142f54bf327955c20b3318f83c6.js'></script>
   </body>
 </html>
